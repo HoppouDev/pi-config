@@ -1,0 +1,12 @@
+{
+  "configVersion": 4,
+  "schema": {
+    "mode": "off"
+  },
+  "prewalk": {
+    "mode": "in-place"
+  },
+  "compaction": {
+    "engine": "fabric"
+  }
+}

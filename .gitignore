@@ -1,0 +1,14 @@
+/node_modules/
+/npm/
+/sessions/
+/bin/
+/tmp/
+/fff/
+/fabric/
+/skills/
+/pi-cache-optimizer-stats.d/
+/auth.json
+/mcp.json
+/mcp-cache.json
+/models-store.json
+/trust.json
