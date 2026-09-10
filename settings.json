@@ -11,7 +11,7 @@
     "npm:@amaster.ai/pi-image-gen@latest",
     "npm:@amaster.ai/pi-web-access@latest",
     "npm:pi-fabric@latest",
-    "npm:@pankajudhas81/pi-claude-auth@latest"
+    "npm:pi-claude-auth@latest"
   ],
   "defaultProvider": "openrouter",
   "defaultModel": "z-ai/glm-5.3-flash",
