@@ -4,6 +4,11 @@
       "compat": {
         "sendSessionAffinityHeaders": true
       }
+    },
+    "anthropic": {
+      "compat": {
+        "sendSessionAffinityHeaders": true
+      }
     }
   }
 }
