@@ -26,7 +26,7 @@
   "collapseChangelog": true,
   "modelThinkingLevels": {
     "anthropic/claude-sonnet-5": "medium",
-    "openrouter/z-ai/glm-5.3-flash": "high"
+    "openrouter/z-ai/glm-5.3-flash:nitro": "high"
   },
   "quietStartup": true,
   "showHardwareCursor": false,
