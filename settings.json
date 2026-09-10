@@ -14,7 +14,7 @@
     "npm:pi-claude-auth@latest"
   ],
   "defaultProvider": "anthropic",
-  "defaultModel": "anthropic/claude-sonnet-5",
+  "defaultModel": "claude-sonnet-5",
   "warnings": {
     "anthropicExtraUsage": false
   },
