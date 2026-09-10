@@ -14,7 +14,7 @@
     "npm:pi-claude-auth@latest"
   ],
   "defaultProvider": "openrouter",
-  "defaultModel": "z-ai/glm-5.3-flash",
+  "defaultModel": "anthropic/claude-sonnet-5",
   "warnings": {
     "anthropicExtraUsage": false
   },
