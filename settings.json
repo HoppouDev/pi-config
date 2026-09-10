@@ -10,11 +10,10 @@
     "npm:pi-cache-optimizer@latest",
     "npm:@amaster.ai/pi-image-gen@latest",
     "npm:@amaster.ai/pi-web-access@latest",
-    "npm:pi-fabric@latest",
-    "npm:pi-claude-auth@latest"
+    "npm:pi-fabric@latest"
   ],
-  "defaultProvider": "anthropic",
-  "defaultModel": "claude-sonnet-5",
+  "defaultProvider": "openrouter",
+  "defaultModel": "~z-ai/glm-flash-latest",
   "warnings": {
     "anthropicExtraUsage": false
   },
@@ -26,7 +25,7 @@
   "collapseChangelog": true,
   "modelThinkingLevels": {
     "anthropic/claude-sonnet-5": "medium",
-    "openrouter/z-ai/glm-5.3-flash:nitro": "high"
+    "openrouter/z-ai/glm-5.3-flash": "high"
   },
   "quietStartup": true,
   "showHardwareCursor": false,
