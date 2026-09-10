@@ -13,7 +13,7 @@
     "npm:pi-fabric@latest",
     "npm:pi-claude-auth@latest"
   ],
-  "defaultProvider": "openrouter",
+  "defaultProvider": "anthropic",
   "defaultModel": "anthropic/claude-sonnet-5",
   "warnings": {
     "anthropicExtraUsage": false
