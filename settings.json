@@ -1,19 +1,22 @@
 {
-  "lastChangelogVersion": "0.85.1",
+  "lastChangelogVersion": "0.87.1",
   "theme": "dark",
   "packages": [
     "npm:pi-lens@latest",
     "npm:pi-fast-resume@latest",
     "npm:@ff-labs/pi-fff@latest",
     "npm:@narumitw/pi-btw@latest",
-    "npm:@narumitw/pi-usage@latest",
+    "npm:@sreetej510/pi-usage",
     "npm:pi-cache-optimizer@latest",
     "npm:@amaster.ai/pi-image-gen@latest",
     "npm:@amaster.ai/pi-web-access@latest",
-    "npm:pi-fabric@latest"
+    "npm:pi-fabric@latest",
+    "npm:@gotgenes/pi-anthropic-auth",
+    "npm:@pi-archimedes/image-paste",
+    "npm:pi-rewind"
   ],
-  "defaultProvider": "openrouter",
-  "defaultModel": "~z-ai/glm-flash-latest",
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-opus-5-5",
   "provider": {
     "sort": "throughput"
   },
@@ -28,12 +31,14 @@
   "collapseChangelog": true,
   "modelThinkingLevels": {
     "anthropic/claude-sonnet-5": "medium",
-    "openrouter/z-ai/glm-5.3-flash": "high"
+    "openrouter/z-ai/glm-5.3-flash": "high",
+    "anthropic/claude-opus-5-5": "medium"
   },
   "quietStartup": true,
   "showHardwareCursor": false,
   "pi-image-gen": {
     "defaultModel": "openrouter/bytedance-seed/seedream-5-0-pro",
     "outputDir": ".pi/images"
-  }
+  },
+  "transport": "auto"
 }
